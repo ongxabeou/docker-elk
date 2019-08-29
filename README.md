@@ -159,7 +159,7 @@ Now that the stack is running, you can go ahead and inject some log entries. The
 you to send content via TCP:
 
 ```console
-$ nc localhost 5000 < /path/to/logfile.log
+$ nc localhost 5600 < /path/to/logfile.log
 ```
 
 You can also load the sample data provided by your Kibana installation.
