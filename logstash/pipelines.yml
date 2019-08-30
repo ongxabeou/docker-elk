@@ -1,4 +1,6 @@
 - pipeline.id: beats
   path.config: "/usr/share/logstash/pipeline/beats.conf"
+  pipeline.workers: 2
 - pipeline.id: logstash
   path.config: "/usr/share/logstash/pipeline/logstash.conf"
+  queue.type: persisted
