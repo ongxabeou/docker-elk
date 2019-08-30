@@ -1,0 +1,4 @@
+- pipeline.id: beats
+  path.config: "beats.conf"
+- pipeline.id: logstash
+  path.config: "logstash.conf"
